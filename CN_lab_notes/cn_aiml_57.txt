@@ -1,0 +1,73 @@
+Lab_work_day02:
+
+cmd:command prompt,
+ipconfig: to see ip address,subnet mask,defalut gateway,DNS Suffix,
+ipconfig/all: mac and hardware adrress etc,
+ping: various command,
+ping  google.com: connect to sites,
+TTL:time to leave,
+-a:
+-t:
+-n:
+tracert: route of root to destined router.
+netstat: shows connection with other machines,
+ping any address: connnect with any machine,
+
+ipconfig/all: 
+
+   Host Name . . . . . . . . . . . . : L2-062
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Realtek Gaming GbE Family Controller
+   Physical Address. . . . . . . . . : D8-5E-D3-77-2C-8E
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   IPv4 Address. . . . . . . . . . . : 192.168.4.70(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.4.1
+   DNS Servers . . . . . . . . . . . : 8.8.8.8
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter vEthernet (Default Switch):
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Hyper-V Virtual Ethernet Adapter
+   Physical Address. . . . . . . . . : 00-15-5D-16-03-82
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   IPv4 Address. . . . . . . . . . . : 172.23.80.1(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . :
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+ipconfig:
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . :
+   IPv4 Address. . . . . . . . . . . : 192.168.4.70
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.4.1
+
+Ethernet adapter vEthernet (Default Switch):
+
+   Connection-specific DNS Suffix  . :
+   IPv4 Address. . . . . . . . . . . : 172.23.80.1
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . :
+
+
+IP Allocation: 1. manual 2. dynamic,
+DHCP:
+IP Configuration pf windows:
+network & internet > change manual to auotmatic or vice-versa > paste ipv4 address ,gateway,subnet mask,dns ..then check again... 
+
+
